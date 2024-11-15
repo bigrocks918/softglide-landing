@@ -1,0 +1,39 @@
+{{ define "common_templates/head.tmpl" }}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="SoftGlide LLC">
+    <!-- DESCRIPTION OF THE PAGE -->
+    <meta name="description" content="Software Development Company - SoftGlide LLC">
+    
+    <!-- KEYWORDS OF THE PAGE TO HELP SEARCH ENGINE -->
+    <meta name="keywords" content="SoftGlide, SoftGlide LLC, Software Development Company, Software Company, E-commerce Development, Blockchain Company, Fintech Development Company, US Software Company, Best Software Company">
+
+    <!-- OG IMAGE IS THE IMAGE SHOWN WHEN YOUR WEBSITE LINK IS SHARED ON SOCIAL MEDIA -->
+    <meta property="og:image" content="assets/art/og-card.png">
+    <meta property="og:title" content="SoftGlide LLC - Software Development Company">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- THE TITLE OF THE PAGE -->
+    <title>SoftGlide LLC | {{ .Title }}</title>
+
+    <link rel="preload" href="assets/icons/bootstrap-icons.css" as="style">
+    <link rel="preload" href="assets/css/fontstyle.css" as="style">
+    <link rel="preload" href="assets/css/layout.css" as="style">
+    <link rel="preload" href="assets/css/animation.css" as="style">
+    <link rel="preload" href="assets/css/style.css" as="style">
+
+    <link rel="stylesheet" href="assets/icons/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/fontstyle.css">
+    <link rel="stylesheet" href="assets/css/layout.css">
+    <link rel="stylesheet" href="assets/css/animation.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+
+    <link rel="icon" type="image/png" href="assets/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+    <link rel="shortcut icon" href="assets/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png" />
+    <link rel="manifest" href="assets/site.webmanifest" />
+</head>
+{{ end }}

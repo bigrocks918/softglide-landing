@@ -1,0 +1,163 @@
+{{ define "main/index.tmpl" }}
+<!DOCTYPE html>
+<html lang="en">
+
+{{ template "common_templates/head.tmpl" . }}
+
+<body>
+    <!-- FADE OUT ANIMATION WHEN LOADED -->
+    <span class="fade"></span>
+    <main>
+        <!-- MAIN HERO BANNER START -->
+        <section class="hero-banner">
+            <div class="hero-contained">
+                <div class="hero-title fc-white">
+                    <!-- <h1 class="ff-damion">SoftGlide</h1> -->
+                     <img src="assets/logo.webp" alt="">
+                    <p class="fs-h4 fw-normal">
+                        A free HTML template for both personal and commercial use, designed by JAC -
+                        Johnny A C. The name 'SoftGlide LLC' is inspired by its abundance of rounded borders.
+                    </p>
+                    <a href="#about" class="btn-bg2 border-round mt-20">
+                        Learn More <i class="bi bi-chevron-compact-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-socials">
+                <a href="#" class="mt-a icon-link" aria-label="Follow us on facebook">
+                    <i class="bi bi-facebook"></i>
+                </a>
+                <a href="#" class="icon-link mt-10" aria-label="Follow us on instagram">
+                    <i class="bi bi-instagram"></i>
+                </a>
+                <a href="#" class="icon-link mt-10" aria-label="Follow us on twitter">
+                    <i class="bi bi-twitter"></i>
+                </a>
+                <a href="#" class="icon-link mt-10" aria-label="Follow us on youtube">
+                    <i class="bi bi-youtube"></i>
+                </a>
+            </div>
+        </section>
+        <!-- MAIN HERO BANNER END -->
+        {{ template "common_templates/navbar.tmpl" }}
+        <a href="#" class="btn-back-to-top" aria-label="Back to top button">
+            <i class="bi bi-chevron-up"></i>
+        </a>
+
+        <!-- ABOUT SECTION START -->
+        <section class="contained row" id="about">
+            <h2 class="section-title ff-damion">About us</h2>
+            <div class="col-balance">
+                <span class="fc-primary fs-h2">
+                    We are a top notch placholder text dedicated to make your vision comes to life! Ofcourse this
+                    comes with limitations.
+                </span>
+                <p>
+                    Here at SoftGlide LLC, our mission is crystal clear: to transform your dreams into reality.
+                    We're not just good; we're extremely good, and we're dedicated to making your vision come to life.
+                    Did we mention that we're in the business of turning your vision into reality?
+                </p>
+                <p>
+                    Our vision is your vision and we are good at envisioning vision that you are envisioning and we'll
+                    make
+                    that vision you are envisioning comes true and we are really good at it yeah believe this
+                    placeholder text.
+                </p>
+                <p>
+                    As a placeholder text in the 'About' section, my mission is to captivate your interest.
+                    And what better way to captivate your interest than by entertaining you with visions, missions,
+                    and a dash of whimsy? Or was it mission-vision, vision-mission, a vision that turned into a mission,
+                    itching to become real?
+                </p>
+                <p>
+                    Yes we are a top notch high quality, another top notch and high I wonder where we are
+                    now, in space probably.
+                </p>
+                <a href="about" class="btn-bg1 mt-25 border-round">Find Out More</a>
+            </div>
+            <div class="col-balance">
+                <div class="sticky-img-dual">
+                    <img src="assets/art/hero1.webp" alt="">
+                    <img src="assets/svg/blob.svg" alt="" class="blob">
+                    <img src="assets/art/hero2.webp" alt="">
+                </div>
+            </div>
+            <div class="sticky-img-dual-spacer"></div>
+        </section>
+        <!-- ABOUT SECTION END -->
+
+        <!-- TEAM SECTION START -->
+        {{ template "common_templates/team.tmpl" }}
+        <!-- TEAM SECTION END -->
+
+        <!-- PREVIEW SERVICE SECTION START -->
+        <section class="bg-primary-foot ta-center">
+            <h2 class="section-title ff-damion bg-primary-foot">Service</h2>
+            <div class="contained">
+                <p class="col-wide mlmr-a">
+                    Here's our range of exceptional services, designed to meet your needs with both quality
+                    and affordability in mind. Don't hesitate to experience the difference today. Go ahead,
+                    listen to this placeholder text.
+                </p>
+            </div>
+            <div class="contained row flex-just-center">
+                <div class="col-full">
+                    <hr>
+                </div>
+                <div class="col-tri">
+                    <i class="bi bi-stars fs-h2"></i>
+                    <h3 class="mt-10 ff-damion">Web designing</h3>
+                    <p>
+                        Picking through the moments, aware of what's nearby, the etchings on existence, where
+                        realities comply, and the façade crumbles, exposing what's inside, the laughter turns
+                        hollow, when denial can't hide.
+                    </p>
+                </div>
+                <div class="col-tri">
+                    <i class="bi bi-diagram-3 fs-h2"></i>
+                    <h3 class="mt-10 ff-damion">Data Analysis</h3>
+                    <p>
+                        Picking through the moments, aware of what's nearby, the etchings on existence, where
+                        realities comply, and the façade crumbles, exposing what's inside, the laughter turns
+                        hollow, when denial can't hide.
+                    </p>
+                </div>
+                <div class="col-tri">
+                    <i class="bi bi-code-slash fs-h2"></i>
+                    <h3 class="mt-10 ff-damion">Development</h3>
+                    <p>
+                        Picking through the moments, aware of what's nearby, the etchings on existence, where
+                        realities comply, and the façade crumbles, exposing what's inside, the laughter turns
+                        hollow, when denial can't hide.
+                    </p>
+                </div>
+            </div>
+            <a href="service" class="btn-bg2 border-round mt-25">
+                View our services
+            </a>
+        </section>
+        <!-- PREVIEW SERVICE SECTION END -->
+
+        {{ template "common_templates/blogs.tmpl" }}
+
+        {{ template "common_templates/news_letter.tmpl"  }}
+
+        <section class="contained ta-center">
+            <h2 class="section-title ff-damion">Reach us</h2>
+            <p class="col-wide mlmr-a">
+                Some text that would compel the user to hit that contact button if what the user have seen above
+                is not enough, ofcourse you want as many potential clients as possible.
+            </p>
+            <a href="contact" class="btn-bg1 border-round mt-25">
+                Get in touch
+            </a>
+        </section>
+
+    </main>
+
+    {{ template "common_templates/footer.tmpl" }}
+
+</body>
+
+</html>
+{{ end }}

@@ -1,0 +1,130 @@
+{{ define "main/industries.tmpl" }}
+<!DOCTYPE html>
+<html lang="en">
+    {{ template "common_templates/head.tmpl" . }}
+<body>
+    <!-- FADE OUT ANIMATION WHEN LOADED -->
+    <span class="fade"></span>
+    <main>
+        <!-- SUB HERO BANNER START -->
+        <section class="sub-hero-banner" style="background-image: url('assets/art/hero2.webp');">
+            <div class="hero-contained">
+                <div class="hero-title fc-white">
+                    <h1 class="ff-damion">SoftGlide LLC | Industries</h1>
+                    <a href="/" class="fc-white">
+                        Home
+                    </a>
+                    <i class="bi bi-chevron-right"></i>
+                    <a href="#" class="fc-white">
+                        Industries
+                    </a>
+                </div>
+            </div>
+            <div class="hero-socials">
+                <a href="#" class="mt-a icon-link" aria-label="Follow us on facebook">
+                    <i class="bi bi-facebook"></i>
+                </a>
+                <a href="#" class="icon-link mt-10" aria-label="Follow us on instagram">
+                    <i class="bi bi-instagram"></i>
+                </a>
+                <a href="#" class="icon-link mt-10" aria-label="Follow us on twitter">
+                    <i class="bi bi-twitter"></i>
+                </a>
+                <a href="#" class="icon-link mt-10" aria-label="Follow us on youtube">
+                    <i class="bi bi-youtube"></i>
+                </a>
+            </div>
+        </section>
+        <!-- SUB HERO BANNER END -->
+
+        <!-- NAVIGATION START -->
+        {{ template "common_templates/navbar.tmpl" }}
+        <a href="#" class="btn-back-to-top" aria-label="Back to top button">
+            <i class="bi bi-chevron-up"></i>
+        </a>
+        <!-- NAVIGATION END -->
+
+        <section class="contained">
+            <h2 class="section-title ff-damion">Industries</h2>
+
+            <div class="row flex-alig-center mt-50">
+                <div class="col-balance">
+                    <img src="assets/art/work1.webp" alt="">
+                </div>
+                <div class="col-balance">
+                    <span class="fc-primary fs-h3">Business Process</span>
+                    <p>
+                        We've broken down the process into small, manageable pieces, much like the image you 
+                        see. By chopping the process into smaller parts, we adopt a 'divide and conquer' approach. 
+                        You might wonder, 'What is this text, and why am I writing a bunch of text explaining a process?
+                    </p>
+                    <p>
+                        Well, the purpose is simple. This serves as a placeholder text for the template, enhancing its
+                        visual appeal even though it lacks any meaningful content."
+                    </p>
+                </div>
+            </div>
+
+            <div class="row flex-alig-center mt-50">
+                <div class="col-balance">
+                    <span class="fc-primary fs-h3">Cloud Computing</span>
+                    <p>
+                        See that sea shells over there? We utilize cloud to compute how many sea shells she sells
+                        by the sea shores, and cloud is really ok with that. The only time we don't bother cloud
+                        to do some computations is when it has a storm brewing.
+                    </p>
+                    <ul>
+                        <li>
+                            I am a bulleted text.
+                        </li>
+                        <li>
+                            I need more bullets.
+                        </li>
+                        <li>
+                            Here's some bullets.
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-balance order-tab-1">
+                    <img src="assets/art/work3.webp" alt="">
+                </div>
+            </div>
+
+            <div class="row flex-alig-center mt-50">
+                <div class="col-balance">
+                    <img src="assets/art/work2.webp" alt="">
+                </div>
+                <div class="col-balance">
+                    <span class="fc-primary fs-h3">Retail</span>
+                    <p>
+                        We've broken down the process into small, manageable pieces, much like the image you 
+                        see. By chopping the process into smaller parts, we adopt a 'divide and conquer' approach. 
+                        You might wonder, 'What is this text, and why am I writing a bunch of text explaining a process?
+                    </p>
+                    <ul>
+                        <li>
+                            I am a bulleted text.
+                        </li>
+                        <li>
+                            I need more bullets.
+                        </li>
+                        <li>
+                            Here's some bullets.
+                        </li>
+                        <li>
+                            Plan plan plan.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER START -->
+    {{ template "common_templates/footer.tmpl" }}
+    <!-- FOOTER END -->
+
+</body>
+</html>
+{{ end }}

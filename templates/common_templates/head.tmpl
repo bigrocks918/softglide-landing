@@ -1,13 +1,24 @@
 {{ define "common_templates/head.tmpl" }}
+
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-S7D22B9DGT"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-S7D22B9DGT');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="SoftGlide LLC">
     <!-- DESCRIPTION OF THE PAGE -->
     <meta name="description" content="Software Development Company - SoftGlide LLC">
-    
+
     <!-- KEYWORDS OF THE PAGE TO HELP SEARCH ENGINE -->
-    <meta name="keywords" content="SoftGlide, SoftGlide LLC, Software Development Company, Software Company, E-commerce Development, Blockchain Company, Fintech Development Company, US Software Company, Best Software Company">
+    <meta name="keywords"
+        content="SoftGlide, SoftGlide LLC, Software Development Company, Software Company, E-commerce Development, Blockchain Company, Fintech Development Company, US Software Company, Best Software Company">
 
     <!-- OG IMAGE IS THE IMAGE SHOWN WHEN YOUR WEBSITE LINK IS SHARED ON SOCIAL MEDIA -->
     <meta property="og:image" content="assets/art/og-card.png">
